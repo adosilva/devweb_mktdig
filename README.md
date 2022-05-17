@@ -1,5 +1,3 @@
-# devweb_mktdig
-
 # Comandos básicos Git e Github
 
 ## Sumário
