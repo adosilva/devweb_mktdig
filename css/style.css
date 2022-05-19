@@ -3,13 +3,15 @@ body, ul{
     margin: 0px;
     padding: 0px;
 }
-a {
+#menu a {
     color:black;
     text-decoration: none;
     font-family: sans-serif;
+    font-size: 15px;
 }
-a:hover {
+#menu a:hover {
     background: rgba(0, 0, 0, 0.05);
+    font-size: 20px;
 }
 #logo {
     font-size: 1.5rem;
@@ -30,4 +32,9 @@ a:hover {
 }
 #btn-mobile {
     display: none;
+}
+#carouselExampleInterval {
+    position: relative;
+    z-index: 10;
+    padding-top: 80px;
 }
