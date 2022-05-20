@@ -38,3 +38,69 @@ body, ul{
     z-index: 10;
     padding-top: 80px;
 }
+
+/* CSS Banner*/
+.section-banner-home {
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+    background-color: #005caa;
+}
+
+.section-banner-home img {
+    height: 400px;
+}
+
+.section-banner-home .texto-banner {
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.section-banner-home .texto-banner h1 {
+    font-size: 30px;
+    width: 60%;
+    font-weight:500;
+    padding-bottom: 20px;
+}
+
+.section-banner-home .texto-banner p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.section-banner-home .texto-banner a {
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 4px 14px;
+    font-size: 15px;
+}
+
+/* CSS Destaque */
+
+.destaque h2 { 
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.destaque p {
+    width: 77%;
+    text-align: center;
+    font-size: 14px;
+    margin: 30px auto;
+}
+.destaque figcaption {
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.destaque a{
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #30dcf4;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px 0;
+}
