@@ -196,3 +196,5 @@ Por exemplo, depois de uma revisão e sabendo que o código está correto podemo
 2.  ##### E juntamos o código da "develop" com a "main"
 
 	`git merge develop`
+
+By Abimael Silva
