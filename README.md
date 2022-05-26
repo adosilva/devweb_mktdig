@@ -15,7 +15,7 @@
   - [Versionamento com o Git](#versionamento-com-o-git)
   - [Subindo o repositório local para a nuvem](#subindo-para-o-github)
   - [Branches e Merge](#branches-e-merge)
-- [Principais Comandos do Git](#Principais-comandos-do-GIT)
+- [Principais Comandos do Git](#-principais-comandos-do-git-)
 <!--te-->
 
 # Guia Rápido
