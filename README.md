@@ -13,6 +13,7 @@
       * [Versionamento com o Git](#versionamento-com-o-git)
       * [Subindo o repositório local para a nuvem](#subindo-para-o-github)
       * [Branches e Merge](#branches-e-merge)
+   * [Principais Comandos do Git](#Principais-comandos-do-GIT)
 <!--te-->
 
 # Guia Rápido
@@ -110,7 +111,7 @@ Para isso executamos:
 
 Por exemplo:
 
-`git remote add origin https://github.com/Thiago-Nascimento/referencia-git`
+`git remote add origin https://github.com/user/referencia-git`
 
 Esse comando vincula um repositório remoto (< link do repositório >), utilizando um "apelido" (< apelido do repositório>).
 
@@ -132,7 +133,7 @@ Caso queiramos trazer uma cópia do repositório do github, para a nossa máquin
 
 Por exemplo:
 
-`git clone https://github.com/Thiago-Nascimento/referencia-git`
+`git clone https://github.com/user/referencia-git`
 
 Esse comando vai trazer uma cópia do repositório, inclusive já pronta para os futuros commits e pushes.
 
@@ -228,12 +229,12 @@ git commit -m "meu commit aqui"
 ### Informar a pasta remota (Via HTTPS):
 (lembre-se de trocar o usuário no comando)
 ```bash
-git remote add origin https://github.com/hstrada/senai-versoes-colaboracoes.git
+git remote add origin https://github.com/adosilva/senai-versoes-colaboracoes.git
 ```
 ### Informar a pasta remota (Via SSH):
 (lembre-se de trocar o usuário no comando)
 ```bash
-git remote add origin git@github.com:hstrada/senai-versoes-colaboracoes.git
+git remote add origin git@github.com:adosilva/senai-versoes-colaboracoes.git
 ```
 ### Visualizar o repositório remoto:
 ```bash
