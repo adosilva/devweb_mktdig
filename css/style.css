@@ -99,6 +99,10 @@ body, ul{
         transform: rotate(-135deg);
         top: -7px;
     }
+    #novidades-mobile {
+        height: 900px;
+        background-color: aquamarine;
+    }
 }
 
 /* CSS Banner*/
@@ -159,6 +163,7 @@ body, ul{
     color: #000;
     text-decoration: none;
     font-weight: bold;
+    text-align: center;
 }
 .destaque a{
     justify-content: center;

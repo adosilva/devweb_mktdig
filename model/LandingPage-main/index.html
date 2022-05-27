@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="model/css/estilo.css">
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="model/css/layout_tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="model/css/layout_smartphone.css">
+    <script src="https://kit.fontawesome.com/fa6968a204.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container-grid conteudo-header">
+            <img class="logo"  src="model/imagens/logos_senai_branco.png" alt="Logo senai">
+            <nav id="menu-header" class="menu-header">
+                <a href="#" title="Inicio da página">Inicio</a>
+                <a href="#mouse">Sobre</a>
+                <a href="#endereco">Endereço</a>
+                <a class="botao" href="mailto:exemplo@email.com">Contate-nos</a>
+            </nav>
+            <a class="menu-barras" href="javascript: void(0)" onclick="mostrarMenu()">
+                <i id="icone-menu" class="fas fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="banner">
+            <div class="container-grid conteudo-banner">
+                <div class="texto-banner">
+                    <h1>cursos técnicos senai</h1>
+                    <div class="linha-amarela"></div>
+                    <span class="titulo-senai">Senai Informática</span>
+                    <img class="mouse" id="mouse" src="imagens/mouse-down.png" alt="Imagem de um mouse">
+                </div>
+            </div>
+        </div>
+        <section class="sobre-projetos">
+            <div class="container-grid">
+                <h2>Sobre os Projetos</h2>
+                <div class="conteudo-sobre">
+                    <img class="imagem-sobre" src="imagens/imagem-seção-sobre.jpg" alt="Homem explicando conteúdo dos cursos para vários alunos">
+                    <div class="texto-sobre"> 
+                        <span class="texto-participantes">participantes</span>
+                        <h3>Mais de 80 alunos organizados em 16 grupos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veniam eos est laudantium modi quis ea porro dolorem fuga sint architecto et vel saepe atque nemo soluta nulla enim itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veniam eos est laudantium modi quis ea porro dolorem fuga sint architecto et vel saepe atque nemo soluta nulla enim itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veniam eos est laudantium modi quis ea porro dolorem fuga sint architecto et vel saepe atque nemo soluta nulla enim itaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veniam eos est laudantium modi quis ea porro dolorem fuga sint architecto et vel saepe atque nemo soluta nulla enim itaque. lore</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="info">
+            <div class="container-grid conteudo-info">
+                <div class="card-info">
+                    <h3>Local</h3>
+                    <p>São Paulo</p>
+                </div>
+                <div class="card-info">
+                    <h3>Duração</h3>
+                    <p>90 dias</p>
+                </div>
+                <div class="card-info">
+                    <h3>Desafios</h3>
+                    <p>+30 Desafios</p>
+                </div>
+            </div>
+        </section>
+        <section class="endereco" id="endereco">
+            <div class="container-grid conteudo-endereco">
+                <h2>Endereço:</h2>
+                <div class="texto-endereco">
+                    <p>Alameda Barão de Limeira, 539 Santa Cecilia, São Paulo - SP CEP: 01202-001</p>
+                </div>
+                <a href=https://goo.gl/maps/Wh6hbeFS51RCSmJQ9 target="blank"><img class="mapa" src="imagens/mapa.png" alt="Mapa mostrando a localização da escola."></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span>Copyright &copy; 2021 - Escola Senai de Informática</span>
+    </footer>
+    <script>
+        function mostrarMenu() {
+            var menu = document.getElementById("menu-header");
+            var icone = document.getElementById("icone-menu");
+
+            if (getComputedStyle(menu).display == 'none') {
+                menu.style.display = "flex";
+                icone.classList.remove("fa-bars");
+                icone.classList.add("fa-times");
+                // Mudar para times
+            } else {
+                menu.style.display = "none";
+                icone.classList.remove("fa-times");
+                icone.classList.add("fa-bars");
+                // Mudar para bars
+            }
+        }
+    </script>
+</body>
+</html>

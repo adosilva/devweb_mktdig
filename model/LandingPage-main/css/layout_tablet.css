@@ -1,0 +1,48 @@
+.menu-header {
+    width: 60%;
+}
+
+.conteudo-sobre {
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem-sobre {
+    width: 80%;
+}
+
+.texto-sobre {
+    width: 80%;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    justify-content: space-between;
+}
+
+.conteudo-info {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.conteudo-endereco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 660px;
+    justify-content: space-between;
+}
+
+.conteudo-endereco h2 {
+    align-self: flex-start;
+}
+
+.texto-endereco p {
+    width: 100%;
+}
+
+.mapa {
+    position: unset;
+    width: 400px;
+}
