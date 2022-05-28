@@ -231,9 +231,9 @@ h1 {
     font-size: 20px;
 }
 
-.mapa {
-    width: 250px;
-    position: absolute;
+.mapa-fixed {
+    width: auto;
+    position:fixed;
     top: 0px;
     right: 20px;
 }
