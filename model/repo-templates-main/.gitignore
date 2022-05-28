@@ -1,0 +1,12 @@
+# No dependencies worth having a lockfile
+package-lock.json
+
+# Generated files
+templates/
+
+# Internal-only info
+PRIVATENOTES.txt
+publishing-package.json
+
+# Excluding other files
+.DS_Store
