@@ -56,6 +56,17 @@ header {
     text-shadow: 4px 4px 6px #0000007a;
 }
 
+.whatsapp {
+    position: fixed;
+    z-index: 2;
+    top: 200px;
+    right: 40px;
+}
+
+.whatsapp img {
+    height: 60px;
+}
+
 .botao {
     background-color: #A259F7;
     height: 45px;
