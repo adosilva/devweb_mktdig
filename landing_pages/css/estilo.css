@@ -267,7 +267,8 @@ h1 {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 100%;
+    padding-top: 30%;
+    max-height: 200px;
 }
 
 .video-responsivo {
@@ -277,8 +278,8 @@ h1 {
     left: 0;
     bottom: 0;
     right: 0;
-    width: 840px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -341,20 +342,10 @@ footer span {
     }
     
     .container-mapa {
-        position: unset;
-        width: 400px;
-    }
-    
-    .container-video {
-        position: unset;
-        width: 400px;
-    }
-    
-    .container-mapa {
         position: relative;
         overflow: hidden;
         width: 100%;
-        padding-top: 30%;
+        padding-top: 20%;
     }
     
     .mapa-responsivo {
