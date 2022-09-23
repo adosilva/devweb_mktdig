@@ -280,6 +280,13 @@ git remote –v
 git branch -M "main"
 ```
 
+### Resolvendo o erro "fatal: refusing to merge unrelated histories"...
+
+```git pull origin main --allow-unrelated-histories
+
+```git pull --allow-unrelated-histories origin master
+```git push -u origin master
+
 ### Realiza o envio dos commits para o branch master
 
 ```bash
