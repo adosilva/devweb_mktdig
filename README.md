@@ -282,10 +282,14 @@ git branch -M "main"
 
 ### Resolvendo o erro "fatal: refusing to merge unrelated histories"...
 
-```git pull origin main --allow-unrelated-histories
+```bash
+git pull origin main --allow-unrelated-histories
+```
 
-```git pull --allow-unrelated-histories origin master
-```git push -u origin master
+```bash
+git pull --allow-unrelated-histories origin master
+git push -u origin master
+```
 
 ### Realiza o envio dos commits para o branch master
 
